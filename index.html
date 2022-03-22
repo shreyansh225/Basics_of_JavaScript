@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics</title>
+    <style>
+        
+        .container{
+            border: 2px solid blue;
+            margin: 3px 0;
+            background: cyan;
+            padding: 9px;
+        }
+        .bg-sample{
+            background-color: pink;
+        }
+        .text-danger{
+            color: red;
+        }
+    </style>
+</head>
+<body> <!-- use dot(.) for class and hash(#) for id  -->
+    <!-- id means identifier and can only be in one Element at a time-->
+    <!-- class can be used in more than one element at a time-->
+    <h1>Welcome to Java Script Basics </h1>
+    <div class="container" id="firstContainer">   <!--  div.container  -->
+        <p>This is a para</p>
+        <button id="click" onclick="clicked()"> Click me </button>   <!-- button#click... Must use dot(.) for class and hash(#) for id  --> 
+    </div>
+    <div class="container" >  <!--  div.container  -->
+        <p>Very good paragraph </p>
+    </div> 
+    
+    <script src="index.js">  // u can either write the JS here within the script tags or u can make a seprate file and add the source location here in src=""
+
+    </script>
+</body>
+</html>
+
+
+<!-- 
+
+    Typed in console in live server
+
+document.getElementsByTagName('h1')
+document.getElementsByTagName('h1')[0]
+<h1>​Welcome to Java Script Basics ​</h1>​
+document.getElementsByTagName('h1')[0].style.fontSize = "29px"
+'29px'
+document.getElementsByTagName('h1')[0].style.fontSize = "40px"
+'40px'
+document.getElementsByTagName('h1')[0].style.background = "red"
+'red'
+document.getElementsByTagName('h1')[0].style.background = "hidden"
+'hidden'
+document.getElementsByTagName('h1')[0].style.visibility = "hidden"
+'hidden'
+document.getElementsByTagName('h1')[0].style.display = "none"
+'none'
+
+-->
